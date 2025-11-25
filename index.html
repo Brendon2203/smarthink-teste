@@ -12,8 +12,8 @@
     <link rel="icon" href="img/favicon.ico">
     <style>
           :root {
-            --primary-gradient: linear-gradient(to right, #667eea, #764ba2);
-            --secondary-color: #764ba2;
+            --primary-gradient: linear-gradient(to right, #667eea, #0096C7);
+            --secondary-color: #764BA2;
             --text-color: #333;
             --light-text-color: #f9f9f9;
             --card-bg: #ffffff;
@@ -68,7 +68,7 @@
         }
 
         .timeline-item:nth-child(odd) {
-            left: -25px;
+            left: 0;
             padding-right: 30px;
         }
 
@@ -141,7 +141,7 @@
         .year {
             font-size: 1.2em;
             font-weight: 600;
-            color: var(--secondary-color);
+            color: #0096C7;
             margin-bottom: 5px;
         }
 
@@ -166,7 +166,7 @@
         }
 
         .toggle-details {
-            background: var(--secondary-color);
+            background: #0096C7;
             color: var(--light-text-color);
             border: none;
             padding: 10px 15px;
@@ -178,7 +178,7 @@
         }
 
         .toggle-details:hover {
-            background-color: #5a3c8a;
+            background-color: #0096C7;
             transform: translateY(-2px);
         }
 
@@ -274,7 +274,7 @@
     <!-- Hero Section -->
     <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 md:py-2 px-4"
         style="background-image: url(img/5066999.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
-        <div class="container mx-auto flex flex-col items-center justify-center text-center">
+        <div class="container mx-auto flex flex-col items-center justify-center text-center mb-20 mt-20">
             <img src="img/Smarthink-semfundo.png" alt="Logo_ITROIS" class="w-48 sm:w-64 md:w-80 mb-4 sm:mb-6" />
 
             <h1 class="text-4xl md:text-5xl font-bold mb-6">
@@ -287,7 +287,7 @@
             </p>
 
             <a href="#contact"
-                class="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full font-semibold transition duration-300 inline-block">
+                class="bg-white  hover:bg-blue-100 px-8 py-3 rounded-full font-semibold transition duration-300 inline-block" style="color: #0096C7;">
                 Falar com a Smarthink
             </a>
         </div>
@@ -363,18 +363,18 @@
             </p>
 
             <!-- Grid de Valores -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
 
                 <!-- Valor 1: Colaboração -->
                 <div
-                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-blue-600">
+                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-[#0096C7] ">
                     <div class="text-4xl text-blue-600 mb-4">
                         <i class="fas fa-handshake"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800">Colaboração</h3>
                     <!-- Tooltip Content (aparece no hover) -->
                     <div
-                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-blue-800 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
+                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-[#0096C7] rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
                         Acreditamos que as melhores soluções nascem da união de talentos, ideias e visões diferentes.
                         Juntos, criamos mais.
                     </div>
@@ -382,26 +382,26 @@
 
                 <!-- Valor 2: Criatividade -->
                 <div
-                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-blue-600">
+                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-[#0096C7] ">
                     <div class="text-4xl text-blue-600 mb-4">
                         <i class="fas fa-lightbulb"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800">Criatividade</h3>
                     <div
-                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-blue-800 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
+                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-[#0096C7] rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
                         Transformamos ideias em soluções reais. A criatividade é nosso método para inovar todos os dias.
                     </div>
                 </div>
 
                 <!-- Valor 3: Inovação (Adicionado para completar a sua lista original) -->
                 <div
-                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-blue-600">
+                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-[#0096C7] ">
                     <div class="text-4xl text-blue-600 mb-4">
                         <i class="fas fa-rocket"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800">Inovação</h3>
                     <div
-                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-blue-800 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
+                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-[#0096C7] rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
                         Buscamos constantemente novas tecnologias e métodos para superar desafios e criar soluções de
                         ponta.
                     </div>
@@ -409,13 +409,13 @@
 
                 <!-- Valor 4: Impacto Social -->
                 <div
-                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-blue-600">
+                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-[#0096C7] ">
                     <div class="text-4xl text-blue-600 mb-4">
                         <i class="fas fa-heart"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800">Impacto Social</h3>
                     <div
-                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-blue-800 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
+                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-[#0096C7] rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
                         Cada projeto deve gerar valor comercial, social e ambiental. Negócios com propósito transformam
                         vidas.
                     </div>
@@ -423,13 +423,13 @@
 
                 <!-- Valor 5: Confiança -->
                 <div
-                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-blue-600">
+                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-[#0096C7] ">
                     <div class="text-4xl text-blue-600 mb-4">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800">Confiança</h3>
                     <div
-                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-blue-800 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
+                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-[#0096C7] rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
                         Parceria verdadeira exige transparência e abertura. Construímos relacionamentos duradouros
                         baseados em confiança mútua.
                     </div>
@@ -437,13 +437,13 @@
 
                 <!-- Valor 6: Disrupção -->
                 <div
-                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-blue-600">
+                    class="bg-white p-8 rounded-lg shadow-xl transform hover:-translate-y-2 transition duration-300 ease-in-out cursor-pointer relative group border-t-4 border-[#0096C7] ">
                     <div class="text-4xl text-blue-600 mb-4">
                         <i class="fas fa-bolt"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800">Disrupção</h3>
                     <div
-                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-blue-800 rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
+                        class="valor-tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-4 py-3 text-sm text-white bg-[#0096C7] rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 w-56 shadow-2xl">
                         Desafiamos o status quo. Buscamos formas inovadoras de resolver problemas e criar oportunidades
                         de crescimento.
                     </div>
@@ -455,14 +455,14 @@
 
     <!-- Nossa trajetoria -->
     <section>
-       <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 m-10">Sobre a Smarthink</h2>
+       <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 m-10 text-white">Nossa Jornada</h2>
 
         <div class="timeline">
             <!-- Milestone 2019 -->
-            <div class="timeline-item m-10">
+            <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2019</div>
-                    <div class="title"><span class="emoji">💡</span> Fundação da Smarthink</div>
+                    <div class="title">Fundação da Smarthink</div>
                     <p class="brief-description">Início da jornada da Smarthink, focada em inovação e colaboração.</p>
                     <button class="toggle-details">Ver detalhes</button>
                     <div class="details-content">
@@ -479,7 +479,7 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2020</div>
-                    <div class="title"><span class="emoji">🐾</span> Projeto Petfeeder + Qontec</div>
+                    <div class="title">Projeto Petfeeder + Qontec</div>
                     <p class="brief-description">Aprovação em edital importante, marcando a primeira grande parceria.
                     </p>
                     <button class="toggle-details">Ver detalhes</button>
@@ -497,7 +497,7 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2021</div>
-                    <div class="title"><span class="emoji">🚀</span> Spin-off iTrois Tecnologia</div>
+                    <div class="title">Spin-off iTrois Tecnologia</div>
                     <p class="brief-description">Criação de uma nova startup a partir de um projeto Smarthink.</p>
                     <button class="toggle-details">Ver detalhes</button>
                     <div class="details-content">
@@ -514,7 +514,7 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2022</div>
-                    <div class="title"><span class="emoji">🍷</span> Em Busca do Vinho + Incubação Base 27</div>
+                    <div class="title">Em Busca do Vinho + Incubação Base 27</div>
                     <p class="brief-description">Novo projeto aprovado e incubação em hub renomado.</p>
                     <button class="toggle-details">Ver detalhes</button>
                     <div class="details-content">
@@ -531,7 +531,7 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2023</div>
-                    <div class="title"><span class="emoji">⚡</span> Aceleração Digital Funses 1 + Sebrae</div>
+                    <div class="title">Aceleração Digital Funses 1 + Sebrae</div>
                     <p class="brief-description">Participação em programas de aceleração e exposição em evento chave.
                     </p>
                     <button class="toggle-details">Ver detalhes</button>
@@ -549,7 +549,7 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2024</div>
-                    <div class="title"><span class="emoji">🤝</span> Parcerias Actcon + Barist.Ai MVP</div>
+                    <div class="title">Parcerias Actcon + Barist.Ai MVP</div>
                     <p class="brief-description">Expansão de atuação e desenvolvimento de MVP de projeto inovador.</p>
                     <button class="toggle-details">Ver detalhes</button>
                     <div class="details-content">
@@ -567,7 +567,7 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <div class="year">2025</div>
-                    <div class="title"><span class="emoji">🌟</span> Vending Machine Barist.Ai + Fonte.Hub</div>
+                    <div class="title">Vending Machine Barist.Ai + Fonte.Hub</div>
                     <p class="brief-description">Evolução tecnológica de projeto e ingresso em novo hub de inovação.</p>
                     <button class="toggle-details">Ver detalhes</button>
                     <div class="details-content">
@@ -637,7 +637,7 @@
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                         <div class="flex items-start">
-                            <i data-lucide="award" class="mr-3 text-blue-600"></i>
+                            <i data-lucide="award" class="mr-3 text-[#0096C7] w-14"></i>
                             <div>
                                 <h4 class="font-semibold">Formação Acadêmica</h4>
                                 <p class="text-sm text-gray-600">Bacharel em Física (UFPE), Mestrado em
@@ -646,7 +646,7 @@
                         </div>
 
                         <div class="flex items-start">
-                            <i data-lucide="book" class="mr-3 text-blue-600"></i>
+                            <i data-lucide="book" class="mr-3 text-[#0096C7] w-14"></i>
                             <div>
                                 <h4 class="font-semibold">Especializações</h4>
                                 <p class="text-sm text-gray-600">Marketing Cultural, Gestão Estratégica, Strategic
@@ -656,7 +656,7 @@
                         </div>
 
                         <div class="flex items-start">
-                            <i data-lucide="briefcase" class="mr-3 text-blue-600"></i>
+                            <i data-lucide="briefcase" class="mr-3 text-[#0096C7] w-10"></i>
                             <div>
                                 <h4 class="font-semibold">Experiência</h4>
                                 <p class="text-sm text-gray-600">25+ anos em elaboração e gestão de projetos</p>
@@ -664,7 +664,7 @@
                         </div>
 
                         <div class="flex items-start">
-                            <i data-lucide="globe" class="mr-3 text-blue-600"></i>
+                            <i data-lucide="globe" class="mr-3 text-[#0096C7] w-10"></i>
                             <div>
                                 <h4 class="font-semibold">Atuação Internacional</h4>
                                 <p class="text-sm text-gray-600">Parcerias e projetos executados com empresas e
@@ -745,7 +745,7 @@
         </div>
     </section>
     <!-- Projects Call Section -->
-    <section class="py-20 px-4 bg-blue-600 text-white">
+    <section class="py-20 px-4 bg-[#0096C7] text-white">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-8">Tem um projeto em mente?</h2>
             <p class="text-xl mb-12">Podemos ajudar a tirar suas ideias do papel.</p>
@@ -757,7 +757,7 @@
                         <i data-lucide="star" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Em novos projetos</h3>
-                    <p class="text-blue-100">Parceria em projetos novos ou em andamento, com foco em soluções
+                    <p class="text-white-100">Parceria em projetos novos ou em andamento, com foco em soluções
                         disruptivas.</p>
                 </div>
 
@@ -767,7 +767,7 @@
                         <i data-lucide="shopping-cart" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">No comercial</h3>
-                    <p class="text-blue-100">Consultoria para ampliar inserção no mercado, criação de network comercial.
+                    <p class="text-white-100">Consultoria para ampliar inserção no mercado, criação de network comercial.
                     </p>
                 </div>
 
@@ -777,13 +777,13 @@
                         <i data-lucide="code" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">No desenvolvimento</h3>
-                    <p class="text-blue-100">Viabilização de ideias por meio de conexões estratégicas e investidores.
+                    <p class="text-white-100">Viabilização de ideias por meio de conexões estratégicas e investidores.
                     </p>
                 </div>
             </div>
 
             <a href="#contact"
-                class="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full font-semibold transition duration-300 inline-block">Quero
+                class="bg-white text-[#0096C7] hover:bg-blue-50 px-8 py-3 rounded-full font-semibold transition duration-300 inline-block">Quero
                 falar sobre meu projeto</a>
         </div>
     </section>
